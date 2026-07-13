@@ -1,0 +1,22 @@
+# Archivos de Python que no necesitamos
+__pycache__/
+*.pyc
+.env
+venv/
+env/
+.venv/
+
+# Datos (solo guardamos estructura, no archivos pesados)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Archivos temporales de Jupyter
+.ipynb_checkpoints/
+
+# Cosas del sistema operativo
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
